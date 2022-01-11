@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  text-align: center;
+  background-color: rgb(252, 250, 231);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1 {
+  font-family: "Concert One", cursive, "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 4em;
+  background: linear-gradient(45deg, rgb(154, 192, 235) 14%, rgb(196, 40, 40));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+label {
+  font-size: 2em;
+  padding-right: 1em;
+}
